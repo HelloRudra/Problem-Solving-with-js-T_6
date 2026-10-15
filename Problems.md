@@ -91,3 +91,38 @@ Explanation: No element is greater than its previous element, so any single elem
 
 
 # Problem 6
+Given an array arr and a positive integer size, split the array into consecutive subarrays (chunks) where each subarray has a length of at most size.
+
+The final chunk may contain fewer elements than size if the array cannot be split evenly. Return all chunks in a new array.
+
+Examples
+chunkArray([1, 2, 3, 4, 5], 2);
+// => [[1, 2], [3, 4], [5]]
+chunkArray(["a", "b", "c", "d"], 2);
+// => [["a", "b"], ["c", "d"]]
+
+
+# Problem 7
+Determine if a given string represents a valid Bangladeshi mobile number. A valid number must conform to one of the following formats:
+
+Starts with 01, followed by 9 more digits. The digit immediately after 01 must be 3, 4, 5, 6, 7, 8, or 9. (e.g., 01712345678)
+Starts with +8801, followed by 9 more digits. The digit immediately after +8801 must be 3, 4, 5, 6, 7, 8, or 9. (e.g., +8801712345678)
+Starts with 8801, followed by 9 more digits. The digit immediately after 8801 must be 3, 4, 5, 6, 7, 8, or 9. (e.g., 8801712345678)
+All characters must be digits, except for the optional leading + sign.
+
+Example 1
+Input: phoneNumber = "01712345678"
+
+Output: true
+
+Example 2
+Input: phoneNumber = "+8801987654321"
+
+Output: true
+
+
+# Problem 8
+
+
+# Problem 9
+# Problem 10
