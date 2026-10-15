@@ -145,5 +145,18 @@ daysBetweenDates("2020-01-15", "2019-12-31");
 
 # Problem 9
 
+Write a function toQueryString that takes a flat object of key-value pairs (where values are strings or numbers) and converts it into a URL query string.
+
+Each pair must be formatted as key=value, and pairs must be joined by &. Both keys and values should be encoded using standard URI component encoding (e.g. encodeURIComponent). Pairs should appear in the order returned by Object.entries(params).
+
+Do not include a leading ? in the output. If the input object has no keys, return an empty string "".
+
+Examples
+toQueryString({ search: "hello world", page: 1 });
+// => "search=hello%20world&page=1"
+toQueryString({ sort: "asc", limit: 10 });
+// => "sort=asc&limit=10"
+
 
 # Problem 10
+
