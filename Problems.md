@@ -123,6 +123,27 @@ Output: true
 
 # Problem 8
 
+Write a function `daysBetweenDates` that calculates the absolute number of whole days between two calendar dates given in `YYYY-MM-DD` format.
+
+The calculation must accurately account for varying month lengths and leap years. The dates can be provided in any order.
+
+## Examples
+
+```js
+daysBetweenDates("2020-01-15", "2020-01-20");
+// 5
+
+```
+
+```js
+daysBetweenDates("2020-01-15", "2019-12-31");
+// 15
+
+```
+
+
 
 # Problem 9
+
+
 # Problem 10
